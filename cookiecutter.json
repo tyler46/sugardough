@@ -1,9 +1,7 @@
 {
     "project_name": "sugardough",
-    "name": "Sugardough",
     "project_description": "Add your project description",
     "project_db": "sugardough_db",
     "project_author": "Mozilla Foundation",
-    "license": "Apache 2.0",
     "repo_name": "{{ cookiecutter.project_name|lower|replace(' ', '') }}"
 }

@@ -3,24 +3,7 @@
   "description": "{{ cookiecutter.project_description }}",
   "repository": {
     "url": "https://github.com/mozilla/{{ cookiecutter.repo_name }}/",
-    "license": "{{ cookiecutter.license }}",
+    "license": "MPL 2.0",
     "tests": "https://travis-ci.org/mozilla/{{ cookiecutter.repo_name }}/"
-  },
-  "participate": {
-    "home": "https://wiki.mozila.org/{{ cookiecutter.project_name|replace(' ', '_') }}",
-    "docs": "https://{{ cookiecutter.repo_name }}.readthedocs.org",
-    "mailing-list": "https://lists.mozilla.org/listinfo/dev-community-tools",
-    "irc": "irc://irc.mozilla.org/#{{ cookiecutter.repo_name }}-dev",
-    "irc-contacts": []
-  },
-  "bugs": {
-    "list": "https://github.com/mozilla/{{ cookiecutter.repo_name }}/issues",
-    "report": "https://github.com/mozilla/{{ cookiecutter.repo_name }}/issues/new"
-  },
-  "urls": {
-    "prod": "https://{{cookiecutter.repo_name }}.org",
-    "stage": "https://{{cookiecutter.repo_name }}.allizom.org",
-    "dev": "https://{{ cookiecutter.repo_name }}-dev.allizom.org"
-  },
-  "keywords": []
+  }
 }
